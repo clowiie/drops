@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner snapshots should match snapshots 1`] = `
+<div
+  class="sc-bdnxRM ijGDfq rounded-full w-14 h-14 animate-spin"
+/>
+`;
