@@ -12,8 +12,16 @@ describe('showErrorToast', () => {
     jest.clearAllMocks()
   })
 
-  it('should call toast with error msg', () => {
+  it('should call toast with error', () => {
     showErrorToast('Error Message')
+
+    expect(toastSpy).toBeCalledTimes(1)
+  })
+
+  it('should call toast with error msg', () => {
+    showErrorToast({
+      message: 'Error Message',
+    })
 
     expect(toastSpy).toBeCalledTimes(1)
   })
