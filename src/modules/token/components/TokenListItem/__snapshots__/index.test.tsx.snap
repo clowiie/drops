@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TokenListItem snapshots should match snapshots 1`] = `
+<div
+  class="px-4 py-2 flex items-center hover:bg-gray-100"
+>
+  <img
+    alt="CAKE Logo"
+    class="w-7 object-contain"
+    loading="lazy"
+    src="cake-logo.svg"
+  />
+  <div
+    class="flex-1 px-2"
+  >
+    <div>
+      <span
+        class="font-semibold"
+      >
+        CAKE
+      </span>
+    </div>
+    <div>
+      <span
+        class="text-sm text-gray-500"
+      >
+        PancakeSwap Token
+      </span>
+    </div>
+  </div>
+  <div>
+    <span
+      class="text-sm"
+    />
+  </div>
+</div>
+`;
+
+exports[`TokenListItem snapshots should match snapshots with disabled style 1`] = `
+<div
+  class="px-4 py-2 flex items-center opacity-40"
+>
+  <img
+    alt="CAKE Logo"
+    class="w-7 object-contain"
+    loading="lazy"
+    src="cake-logo.svg"
+  />
+  <div
+    class="flex-1 px-2"
+  >
+    <div>
+      <span
+        class="font-semibold"
+      >
+        CAKE
+      </span>
+    </div>
+    <div>
+      <span
+        class="text-sm text-gray-500"
+      >
+        PancakeSwap Token
+      </span>
+    </div>
+  </div>
+  <div>
+    <span
+      class="text-sm"
+    />
+  </div>
+</div>
+`;
+
+exports[`TokenListItem snapshots should match snapshots with have balance style 1`] = `
+<div
+  class="px-4 py-2 flex items-center opacity-40"
+>
+  <img
+    alt="CAKE Logo"
+    class="w-7 object-contain"
+    loading="lazy"
+    src="cake-logo.svg"
+  />
+  <div
+    class="flex-1 px-2"
+  >
+    <div>
+      <span
+        class="font-semibold"
+      >
+        CAKE
+      </span>
+    </div>
+    <div>
+      <span
+        class="text-sm text-gray-500"
+      >
+        PancakeSwap Token
+      </span>
+    </div>
+  </div>
+  <div>
+    <span
+      class="text-sm"
+    >
+      100
+    </span>
+  </div>
+</div>
+`;
