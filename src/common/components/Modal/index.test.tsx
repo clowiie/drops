@@ -2,23 +2,29 @@ import React from 'react'
 
 import { render } from '@testing-library/react'
 
+import createPortalWrapper from 'test/utils/createPortalWrapper'
+
 import * as ModalType from '.'
 
 describe('Modal', () => {
   const onCloseSpy = jest.fn()
   const children = <div>Content</div>
 
-  const { default: Modal } = require('.') as typeof ModalType
+  const { default: ModalComponent } = require('.') as typeof ModalType
 
   describe('snapshots', () => {
     it('should match snapshots', () => {
-      const { container } = render(
-        <Modal isOpen onClose={onCloseSpy}>
+      const { container, getByText } = render(
+        <ModalComponent isOpen onClose={onCloseSpy}>
           {children}
-        </Modal>,
+        </ModalComponent>,
+        {
+          wrapper: createPortalWrapper(),
+        },
       )
 
       expect(container.firstChild).toMatchSnapshot()
+      expect(getByText('Content')).toBeDefined()
     })
   })
 })

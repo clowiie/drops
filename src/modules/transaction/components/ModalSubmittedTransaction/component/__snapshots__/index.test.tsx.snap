@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalSubmittedTransaction snapshots should match snapshots 1`] = `
+<div
+  id="root"
+/>
+`;
+
+exports[`ModalSubmittedTransaction snapshots should match snapshots with isOpen is false 1`] = `
+<div
+  id="root"
+/>
+`;
