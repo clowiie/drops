@@ -3,10 +3,11 @@ import { isEmpty } from 'lodash'
 
 import Chains from 'common/constants/chains'
 
-import { MetaMaskMethod, MetaMaskRPCApi } from 'modules/wallet/constants'
 import WalletController from 'modules/wallet/stores/controllers/Wallet'
 import validateBSCNetwork from 'modules/wallet/utils/validateBSCNetwork'
 import { CONNECTOR_ID } from 'modules/wallet/stores/controllers/constants'
+
+import { MetaMaskMethod, MetaMaskRPCApi } from './constants'
 
 class MetaMaskController {
   provider: ethers.providers.Web3Provider
