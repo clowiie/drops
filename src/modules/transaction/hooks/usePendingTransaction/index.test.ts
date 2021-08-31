@@ -53,7 +53,7 @@ describe('usePendingTransaction', () => {
   })
 
   it('should call getTransactionReceipt when pendingHashes has changed with transaction successed', async () => {
-    const { result } = renderHook(() => usePendingTransaction())
+    const { result, waitFor } = renderHook(() => usePendingTransaction())
 
     act(() => {
       result.current.setPendingHashes(['hash'])
@@ -61,11 +61,11 @@ describe('usePendingTransaction', () => {
       jest.advanceTimersByTime(3000)
     })
 
-    await Promise.resolve()
-
-    expect(getTransactionReceiptSpy).toBeCalledWith('hash')
-    expect(showSuccessToastSpy).toBeCalledWith('Transaction Successed')
-    expect(result.current.pendingHashes).toStrictEqual([])
+    await waitFor(() => {
+      expect(getTransactionReceiptSpy).toBeCalledWith('hash')
+      expect(showSuccessToastSpy).toBeCalledWith('Transaction Successed')
+      expect(result.current.pendingHashes).toStrictEqual([])
+    })
   })
 
   it('should call getTransactionReceipt when pendingHashes has changed with transaction failed', async () => {
@@ -74,7 +74,7 @@ describe('usePendingTransaction', () => {
       status: 0,
     })
 
-    const { result } = renderHook(() => usePendingTransaction())
+    const { result, waitFor } = renderHook(() => usePendingTransaction())
 
     act(() => {
       result.current.setPendingHashes(['hash'])
@@ -82,10 +82,10 @@ describe('usePendingTransaction', () => {
       jest.advanceTimersByTime(3000)
     })
 
-    await Promise.resolve()
-
-    expect(getTransactionReceiptSpy).toBeCalledWith('hash')
-    expect(showErrorToastSpy).toBeCalledWith('Transaction Failed')
-    expect(result.current.pendingHashes).toStrictEqual([])
+    await waitFor(() => {
+      expect(getTransactionReceiptSpy).toBeCalledWith('hash')
+      expect(showErrorToastSpy).toBeCalledWith('Transaction Failed')
+      expect(result.current.pendingHashes).toStrictEqual([])
+    })
   })
 })

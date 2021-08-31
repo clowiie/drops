@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConnectWalletChoice snapshots should match snapshots 1`] = `
+<button>
+  <div
+    class="flex flex-col items-center justify-between"
+  >
+    <img
+      alt="Connector Logo"
+      class="object-contain w-16 h-16"
+      loading="lazy"
+      src="meta-mask-logo.svg"
+    />
+    <span
+      class="text-sm"
+    >
+      MetaMask
+    </span>
+  </div>
+</button>
+`;
