@@ -5,16 +5,8 @@ import WalletConnectLogo from 'modules/wallet/images/wallet-connect-logo.svg'
 import MetaMaskController from 'modules/wallet/stores/controllers/MetaMask'
 import WalletConnectController from 'modules/wallet/stores/controllers/WalletConnect'
 
-export enum MetaMaskMethod {
-  GetPermissons = 'wallet_getPermissions',
-  RequestAccounts = 'eth_requestAccounts',
-  SwitchChain = 'wallet_switchEthereumChain',
-}
-
-export enum MetaMaskRPCApi {
-  ChainChanged = 'chainChanged',
-  AccountsChanged = 'accountsChanged',
-}
+export const BRIDGE_URL = 'https://pancakeswap.bridge.walletconnect.org/'
+export const POLLING_INTERVAL = 12000
 
 export enum ConnectorId {
   MetaMask = 'metaMask',
