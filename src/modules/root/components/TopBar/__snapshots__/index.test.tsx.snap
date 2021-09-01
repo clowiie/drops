@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopBar snapshots should match snapshots does not connect wallet 1`] = `
+<div
+  class="w-full bg-white shadow-sm flex justify-between items-center px-6 py-4 sm:px-12"
+>
+  <span
+    class="text-lg font-semibold"
+  >
+    Drops
+  </span>
+  <div />
+</div>
+`;
+
+exports[`TopBar snapshots should match snapshots with connected wallet 1`] = `
+<div
+  class="w-full bg-white shadow-sm flex justify-between items-center px-6 py-4 sm:px-12"
+>
+  <span
+    class="text-lg font-semibold"
+  >
+    Drops
+  </span>
+  <div />
+</div>
+`;
