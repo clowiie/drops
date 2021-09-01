@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SpinnerOverlay snapshots should match snapshots 1`] = `
+<div
+  class="fixed inset-0 flex justify-center items-center bg-black bg-opacity-40"
+>
+  <div
+    class="static bg-white rounded-md outline-none p-2"
+  >
+    <div
+      class="sc-bdnxRM ijGDfq rounded-full w-14 h-14 animate-spin"
+    />
+  </div>
+</div>
+`;

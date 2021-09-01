@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingProvider snapshots should match snapshots 1`] = `
+<h1>
+  Component
+</h1>
+`;
+
+exports[`LoadingProvider snapshots should match snapshots with loading 1`] = `<div />`;

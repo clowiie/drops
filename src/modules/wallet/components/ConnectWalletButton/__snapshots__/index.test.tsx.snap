@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConnectWalletButton snapshots should match snapshots 1`] = `
+<a
+  class="bg-gray-700 hover:bg-gray-500 text-white p-2 rounded-lg text-sm"
+  href="/somepath?modalConnectWallet=true"
+>
+  Connect Wallet
+</a>
+`;

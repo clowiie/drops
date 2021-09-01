@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwapInput snapshots should macth snapshots with do not select token 1`] = `
+<div
+  class="grid gap-y-2"
+>
+  <div
+    class="flex justify-between"
+  >
+    <span
+      class="text-sm"
+    >
+      title
+    </span>
+    <span
+      class="text-sm"
+    />
+  </div>
+  <div
+    class="flex justify-between items-center"
+  >
+    <input
+      class="h-full bg-gray-50 rounded-l-md flex-1 p-2 outline-none"
+      placeholder="0.0"
+      type="number"
+      value="10"
+    />
+    <div
+      class="h-full border border-gray-300 flex rounded-r-md hover:bg-gray-50"
+    >
+      <a
+        class="p-2 "
+        href="/somepath?modal=true"
+      >
+        <span
+          class="text-sm"
+        >
+          Select a currency
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SwapInput snapshots should macth snapshots with selected token 1`] = `
+<div
+  class="grid gap-y-2"
+>
+  <div
+    class="flex justify-between"
+  >
+    <span
+      class="text-sm"
+    >
+      title
+    </span>
+    <span
+      class="text-sm"
+    />
+  </div>
+  <div
+    class="flex justify-between items-center"
+  >
+    <input
+      class="h-full bg-gray-50 rounded-l-md flex-1 p-2 outline-none"
+      placeholder="0.0"
+      type="number"
+      value="10"
+    />
+    <div
+      class="h-full border border-gray-300 flex rounded-r-md hover:bg-gray-50"
+    >
+      <a
+        class="p-2 "
+        href="/somepath?modal=true"
+      >
+        <div
+          class="flex items-center"
+        >
+          <img
+            alt="BUNNY Logo"
+            class="w-7 object-contain"
+            loading="lazy"
+            src="bunny-logo.svg"
+          />
+          <div
+            class="ml-2"
+          >
+            <span
+              class="font-semibold text-sm"
+            >
+              BUNNY
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SwapInput snapshots should macth snapshots with selected token and balance 1`] = `
+<div
+  class="grid gap-y-2"
+>
+  <div
+    class="flex justify-between"
+  >
+    <span
+      class="text-sm"
+    >
+      title
+    </span>
+    <span
+      class="text-sm"
+    >
+      Balance: 100
+    </span>
+  </div>
+  <div
+    class="flex justify-between items-center"
+  >
+    <input
+      class="h-full bg-gray-50 rounded-l-md flex-1 p-2 outline-none"
+      placeholder="0.0"
+      type="number"
+      value="10"
+    />
+    <div
+      class="h-full border border-gray-300 flex rounded-r-md hover:bg-gray-50"
+    >
+      <a
+        class="p-2 "
+        href="/somepath?modal=true"
+      >
+        <div
+          class="flex items-center"
+        >
+          <img
+            alt="BUNNY Logo"
+            class="w-7 object-contain"
+            loading="lazy"
+            src="bunny-logo.svg"
+          />
+          <div
+            class="ml-2"
+          >
+            <span
+              class="font-semibold text-sm"
+            >
+              BUNNY
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

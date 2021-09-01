@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DisconnectWalletButton snapshots should match snapshots 1`] = `
+<a
+  class="bg-gray-700 hover:bg-gray-500 text-white p-2 rounded-lg text-sm"
+  href="/somepath?modalDisconnectWallet=true"
+>
+  ad...ress
+</a>
+`;
+
+exports[`DisconnectWalletButton snapshots should match snapshots with empty wallet address 1`] = `
+<a
+  class="bg-gray-700 hover:bg-gray-500 text-white p-2 rounded-lg text-sm"
+  href="/somepath?modalDisconnectWallet=true"
+/>
+`;
