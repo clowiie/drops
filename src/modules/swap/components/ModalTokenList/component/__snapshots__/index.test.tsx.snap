@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalTokenList snapshots should match snapshots 1`] = `
+<div>
+  <div
+    class="py-4"
+  >
+    <div
+      class="px-4"
+    >
+      <span
+        class="text-lg font-semibold"
+      >
+        Select Token
+      </span>
+    </div>
+    <div
+      class="pt-4"
+    >
+      <div />
+    </div>
+  </div>
+</div>
+`;

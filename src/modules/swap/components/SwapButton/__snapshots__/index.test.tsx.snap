@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwapButton snapshots should macth snapshots Insufficient balance button 1`] = `
+<button
+  class="bg-gray-200 text-white rounded-md p-3 text-lg font-semibold pointer-events-none"
+  disabled=""
+>
+  Insufficient 
+  BUNNY
+   balance
+</button>
+`;
+
+exports[`SwapButton snapshots should macth snapshots approve button 1`] = `
+<button
+  class="bg-gray-700 hover:bg-gray-500 text-white rounded-md p-3 text-lg font-semibold text-center"
+>
+  Approve
+</button>
+`;
+
+exports[`SwapButton snapshots should macth snapshots connect wallet modal button 1`] = `
+<a
+  class="bg-gray-700 hover:bg-gray-500 text-white rounded-md p-3 text-lg font-semibold text-center"
+  href="/somepath?modalConnectWallet=true"
+>
+  Connect Wallet
+</a>
+`;
+
+exports[`SwapButton snapshots should macth snapshots select token button 1`] = `
+<button
+  class="bg-gray-200 text-white rounded-md p-3 text-lg font-semibold pointer-events-none"
+  disabled=""
+>
+  Select Token
+</button>
+`;
+
+exports[`SwapButton snapshots should macth snapshots select token button 2`] = `
+<button
+  class="bg-gray-200 text-white rounded-md p-3 text-lg font-semibold pointer-events-none"
+  disabled=""
+>
+  Enter an amount
+</button>
+`;
+
+exports[`SwapButton snapshots should macth snapshots swap button 1`] = `
+<button
+  class="bg-gray-700 hover:bg-gray-500 text-white rounded-md p-3 text-lg font-semibold text-center"
+>
+  Swap
+</button>
+`;

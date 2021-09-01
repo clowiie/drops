@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwapPlate snapshots should macth snapshots with estimate amount in 1`] = `
+<div
+  class="w-full flex justify-center items-center"
+>
+  <div
+    class="bg-white w-full max-w-lg shadow-sm rounded-md mx-2 p-4 sm:p-8 divide-y divide-gray-200"
+  >
+    <div
+      class="flex flex-col pb-4"
+    >
+      <span
+        class="text-lg font-semibold"
+      >
+        Exchange
+      </span>
+      <span>
+        Trade tokens in an instant
+      </span>
+    </div>
+    <div
+      class="pt-8 grid gap-y-8"
+    >
+      <div />
+      <div />
+      <div
+        class="flex justify-between text-sm"
+      >
+        <span>
+          Price
+        </span>
+        <span>
+          100
+           
+          BUSD
+           per 
+          CAKE
+        </span>
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SwapPlate snapshots should macth snapshots with estimate amount out 1`] = `
+<div
+  class="w-full flex justify-center items-center"
+>
+  <div
+    class="bg-white w-full max-w-lg shadow-sm rounded-md mx-2 p-4 sm:p-8 divide-y divide-gray-200"
+  >
+    <div
+      class="flex flex-col pb-4"
+    >
+      <span
+        class="text-lg font-semibold"
+      >
+        Exchange
+      </span>
+      <span>
+        Trade tokens in an instant
+      </span>
+    </div>
+    <div
+      class="pt-8 grid gap-y-8"
+    >
+      <div />
+      <div />
+      <div
+        class="flex justify-between text-sm"
+      >
+        <span>
+          Price
+        </span>
+        <span>
+          100
+           
+          BUSD
+           per 
+          CAKE
+        </span>
+      </div>
+      <div />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`SwapPlate snapshots should macth snapshots without compare price 1`] = `
+<div
+  class="w-full flex justify-center items-center"
+>
+  <div
+    class="bg-white w-full max-w-lg shadow-sm rounded-md mx-2 p-4 sm:p-8 divide-y divide-gray-200"
+  >
+    <div
+      class="flex flex-col pb-4"
+    >
+      <span
+        class="text-lg font-semibold"
+      >
+        Exchange
+      </span>
+      <span>
+        Trade tokens in an instant
+      </span>
+    </div>
+    <div
+      class="pt-8 grid gap-y-8"
+    >
+      <div />
+      <div />
+      <div />
+    </div>
+  </div>
+</div>
+`;
